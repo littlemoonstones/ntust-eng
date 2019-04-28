@@ -1,0 +1,62 @@
+.suspend {
+    position: fixed;
+    top: 7%;
+    left: 0;
+    right: 0;
+    width: 75%;
+    margin: auto;
+    z-index: 2;
+    overflow: auto;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #FF7F50;
+    color: white;
+    border-color: rgb(215, 103, 63);
+}
+
+.bg-light {
+    background-color: #FF7F50 !important;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .8);
+}
+
+.navbar-light .navbar-toggler-icon {}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, .9);
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: rgb(201, 88, 47);
+    border-color: #FF7F50;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgb(255, 147, 65)
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgb(255, 147, 65)
+}
+
+.spec{
+    color: black !important;
+}
+.spec:hover{
+    color: gray!important;
+}
